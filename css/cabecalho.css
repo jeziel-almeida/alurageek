@@ -1,0 +1,45 @@
+:root {
+    --azul-claro: #2a7ae4;
+}
+
+body {
+    font-family: 'Segoe UI';
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.7rem .7rem;
+}
+
+.navegacao__logo {
+    display: flex;
+    align-items: center;
+}
+
+.navegacao__titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.navegacao__pesquisar {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(227, 235, 243);
+    padding: .5rem 4rem .5rem .3rem;
+    color: gray;
+}
+
+.navegacao__login {
+    padding: .7rem 3rem;
+    border: 1px solid var(--azul-claro);
+    color: var(--azul-claro);
+    transition: all .3s ease-in-out;
+}
+
+.navegacao__login:hover {
+    color: white;
+    background: var(--azul-claro);
+}
