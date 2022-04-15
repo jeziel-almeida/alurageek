@@ -1,53 +1,54 @@
-.star-wars {
+.console {
     padding: 3rem 8rem;
 }
 
-.star-wars__header {
+.console__header {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.star-wars__titulo {
+.console__titulo {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: .5rem;
 }
 
-.star-wars__conteudo {
+.console__conteudo {
     display: flex;
     justify-content: space-between;
 }
 
-.star-wars__item {
+.console__item {
     display: flex;
     flex-direction: column;
     width: 15%;
 }
 
-.star-wars__seta {
+.console__seta {
     display: flex;
     align-items: center;
     color: var(--azul-claro);
 }
 
-.star-wars__seta-paragrafo {
+.console__seta-paragrafo {
     font-size: 1.1rem;
     font-weight: bold;
     margin-right: .5rem;
 }
 
-.star-wars__item-titulo {
+.console__item-titulo {
     color: gray;
     margin: .2rem 0 .4rem 0;
 }
 
-.star-wars__item-preco {
+.console__item-preco {
     font-weight: bold;
     margin-bottom: .4rem;
 }
 
-.star-wars__item-link {
+.console__item-link {
     font-weight: bold;
     color: var(--azul-claro);
 }
+

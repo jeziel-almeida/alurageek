@@ -1,0 +1,73 @@
+.sobre {
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(219, 229, 251);
+    align-items: flex-start;
+}
+
+.sobre__logo {
+    display: flex;
+    align-items: center;
+}
+
+.sobre__logo-titulo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.sobre__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__links-item {
+    font-size: 1.1rem;
+    color: rgb(44, 44, 44);
+    margin-bottom: .8rem;
+}
+
+.sobre__formulario-titulo {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sobre__formulario-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre__formulario-field label {
+    font-size: 1.2rem;
+    margin: .6rem 0 .6rem 0;
+}
+
+.sobre__formulario-input {
+    border: none;
+    width: 18rem;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.sobre__formulario-field textarea {
+    border: none;
+    width: 18rem;
+    border-radius: 5px;
+}
+
+.sobre__formulario-enviar {
+    background-color: var(--azul-claro);
+    color: white;
+    font-size: 1.2rem;
+    margin-top: .9rem;
+    width: fit-content;
+    border: none;
+    padding: .6rem 2rem .6rem 2rem;
+    transition: all .5s ease-in-out;
+}
+
+.sobre__formulario-enviar:hover {
+    background-color: #074699;
+    cursor: pointer;
+}
